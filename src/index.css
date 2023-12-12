@@ -1,39 +1,46 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    background-color:#f8f5f5;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  
-  .card-container{
-    background-image: url("https://p4.wallpaperbetter.com/wallpaper/661/973/110/cool-nba-logo-wallpaper-preview.jpg");
-    min-width: 300px;
-    min-height: 432px;
-  
-  }
-  .player-card{
-    height: 400px;
-    max-width: 280px;
-    min-width: 230px;
-  }
-  
-  .player-card:hover{
-    box-shadow: 3px 3px 20px 5px rgba(0, 0, 0, 0.5);
-    transform: scale(95%);
-    transition: all ;
-  
-  }
-  
-  .player-logo{
-    height: 350px;
-    object-fit: cover;
-    transition: transform 0.7s;
-  }
-  .player-card:hover .player-logo{
-    transform: scale(95%);
-    /* transition: all 1s ease; */
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8f5f5;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-container {
+  border: 2px solid #fe21a2;
+  box-shadow: 0px 0px 5px #fe21a2, 0px 0px 40px #fe21a2,
+    inset 0px 0px 20px #fe21a2;
+    background-color: #fe21a244;
+    
+}
+.player-card {
+  height: 400px;
+  max-width: 280px;
+  min-width: 230px;
+  margin: auto;
+}
+
+
+.player-logo {
+  height: 350px;
+  /* object-fit: cover; */
+  transition: transform 0.7s;
+}
+.player-card:hover .player-logo {
+  transform: scale(95%);
+  /* transition: all 1s ease; */
+}
+.text-h{
+    text-align: center;
+}
+
+.images{
+    width: 200px;
+    border:1px solid #fe21a2;
+    border: 2px solid #fe21a2;
+  box-shadow: 0px 0px 5px #fe21a2, 0px 0px 40px #fe21a2,
+    inset 0px 0px 20px #fe21a2;
+}
